@@ -27,12 +27,12 @@ namespace Pg97
         {
             for (int iPrint = numbers[0]; iPrint <= 10; iPrint++)
             {
-                Console.WriteLine(+iPrint);
+                Console.WriteLine(iPrint);
             }
         }
         static void PrintReverse(int[]numbers)
         {
-            for (int reverse = numbers[9]; reverse >= 0; reverse--)
+            for (int reverse = numbers[9]; reverse > 0; reverse--)
             {
                 Console.WriteLine(reverse);
             }
