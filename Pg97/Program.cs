@@ -19,9 +19,7 @@ namespace Pg97
         static int[] GenerateNumbers()
         {
             int[] iNumbers = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            {
-                return iNumbers;
-            }
+            return iNumbers;
         }
         static void PrintNumbers(int[] numbers)
         {
@@ -30,7 +28,7 @@ namespace Pg97
                 Console.WriteLine(iPrint);
             }
         }
-        static void PrintReverse(int[]numbers)
+        static void PrintReverse(int[] numbers)
         {
             for (int reverse = numbers[9]; reverse > 0; reverse--)
             {
