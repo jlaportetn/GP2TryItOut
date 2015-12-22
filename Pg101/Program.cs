@@ -10,7 +10,7 @@ namespace Pg101
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the position in the Fibonacci Sequence you would like to display (1-10)");
+            Console.WriteLine("Please enter the position in the Fibonacci Sequence you would like to display ( 1-10 )");
             int userEntry = Convert.ToInt32(Console.ReadLine());
             int output = Fibonacci(userEntry);
             Fibonacci(userEntry);
